@@ -1,0 +1,13 @@
+Tomato LLD — Design Patterns
+─────────────────────────────
+1. Strategy  → Payment (UPI/Card/NetBanking)
+2. Factory   → Order (Delivery/Pickup)
+3. Singleton → RestaurantManager, OrderManager
+
+Classes:
+- MenuItem
+- Restaurant (has MenuItem)
+- Cart (has MenuItem)
+- User (has Cart)
+- Order → DeliveryOrder, PickupOrder
+- Tomato (main class)
